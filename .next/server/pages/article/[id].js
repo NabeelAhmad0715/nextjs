@@ -67,7 +67,7 @@ Meta.defaultProps = {
 /* harmony export */   "f": () => (/* binding */ server)
 /* harmony export */ });
 const dev = false;
-const server = dev ? 'http://localhost:3000' : 'http://localhost:3000m';
+const server = dev ? 'http://localhost:3000' : 'https://yourwebsite.com';
 
 /***/ }),
 
