@@ -1,38 +1,47 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/QeOP1CgFQmySrchkF-EeR/_buildManifest.js",
+    "static/QeOP1CgFQmySrchkF-EeR/_ssgManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-fb76148cfcfb42ca18eb.js",
+      "static/chunks/framework-1a85486469afb3278dba.js",
+      "static/chunks/main-8d15616dad332ac01c02.js",
+      "static/css/d89d054dcdabf654e111.css",
+      "static/chunks/pages/index-eacd9fdfb59f3d87659d.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-fb76148cfcfb42ca18eb.js",
+      "static/chunks/framework-1a85486469afb3278dba.js",
+      "static/chunks/main-8d15616dad332ac01c02.js",
+      "static/css/13cc173fc24c9cf82679.css",
+      "static/chunks/pages/_app-e7787c3dfd5cd0b843d0.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-fb76148cfcfb42ca18eb.js",
+      "static/chunks/framework-1a85486469afb3278dba.js",
+      "static/chunks/main-8d15616dad332ac01c02.js",
+      "static/chunks/pages/_error-737a04e9a0da63c9d162.js"
+    ],
+    "/drink": [
+      "static/chunks/webpack-fb76148cfcfb42ca18eb.js",
+      "static/chunks/framework-1a85486469afb3278dba.js",
+      "static/chunks/main-8d15616dad332ac01c02.js",
+      "static/css/d89d054dcdabf654e111.css",
+      "static/chunks/pages/drink-f92bd1e2b7bd3b07af8a.js"
     ],
     "/drink/[drinkName]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/drink/[drinkName].js"
+      "static/chunks/webpack-fb76148cfcfb42ca18eb.js",
+      "static/chunks/framework-1a85486469afb3278dba.js",
+      "static/chunks/main-8d15616dad332ac01c02.js",
+      "static/css/d89d054dcdabf654e111.css",
+      "static/chunks/pages/drink/[drinkName]-279490e71458f69f0751.js"
     ]
   },
   "ampFirstPages": []
