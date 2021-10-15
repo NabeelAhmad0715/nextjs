@@ -1,32 +1,32 @@
 import { server } from '../config'
-import ArticleList from '../components/ArticleList'
+import DrinkList from '../components/DrinkList'
 
-export default function Home({ articles }) {
+export default function Home({ drinks }) {
   return (
     <div>
-      <ArticleList articles={articles} />
+      <DrinkList drinks={drinks} />
     </div>
   )
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`${server}/api/articles`)
-  const articles = await res.json()
+  const res = await fetch(`${server}/api/drinks`)
+  const drinks = await res.json();
 
   return {
     props: {
-      articles,
+      drinks,
     },
   }
 }
 
 // export const getStaticProps = async () => {
 //   const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=6`)
-//   const articles = await res.json()
+//   const drinks = await res.json()
 
 //   return {
 //     props: {
-//       articles,
+//       drinks,
 //     },
 //   }
 // }
