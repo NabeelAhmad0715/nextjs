@@ -1,7 +1,7 @@
-import { server } from '../../../config'
+import { server } from '../../config'
 import Link from 'next/link'
-import Meta from '../../../components/Meta'
-import drinkStyles from '../../../styles/Drink.module.css'
+import Meta from '../../components/Meta'
+import drinkStyles from '../../styles/Drink.module.css'
 
 const drink = ({ drink }) => {
   return (
@@ -24,21 +24,20 @@ export const getStaticProps = async (context) => {
   const drink = await res.json()
   return {
     props: {
-      drink,
+      drink
     },
   }
 }
 
 export const getStaticPaths = async () => {
   const res = await fetch(`${server}/api/drinks`)
-
   const response = await res.json()
   const drinks = response.drinks.map((drink) => drink.strDrink)
-  const paths = drinks.map((strDrink) => ({ params: { drinkName: strDrink } }))
-
+  const paths = drinks.map((drinkName) => ({ params: { drinkName: drinkName } }))
   return {
     paths,
-    fallback: false,
+    fallback: false
   }
 }
-export default drink
+
+export default drink;

@@ -2,9 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/api/drinks": "pages/api/drinks.js",
-  "/add-drinks": "pages/add-drinks.js",
-  "/": "pages/index.js",
   "/drink/[drinkName]": "pages/drink/[drinkName].js",
-  "/api/drinks/[drinkName]": "pages/api/drinks/[drinkName].js"
+  "/": "pages/index.js"
 }
